@@ -14,16 +14,16 @@ public class Solution {
         if (n == 1) {
             return 1;
         }
-        int[] dp = new int[n];
-        dp[0] = 1;
-        dp[1] = 2;
+        int[] stairs = new int[n];
+        stairs[0] = 1;
+        stairs[1] = 2;
         for (int i = 2; i < n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
+            stairs[i] = stairs[i - 2] + stairs[i - 1];
         }
-        return dp[n-1];
+        return stairs[n - 1];
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().climbStairs(8));
+        System.out.println(new Solution().climbStairs(5));
     }
 }
