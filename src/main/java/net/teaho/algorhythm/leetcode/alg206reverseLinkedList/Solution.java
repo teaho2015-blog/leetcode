@@ -13,6 +13,9 @@ package net.teaho.algorhythm.leetcode.alg206reverseLinkedList;
  * ListNode(int val) { this.val = val; }
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
+ *
+ * 时间复杂度：O(n)，其中 n 是链表的长度。需要遍历链表一次。
+ * 空间复杂度：O(1)。
  */
 class Solution {
 
