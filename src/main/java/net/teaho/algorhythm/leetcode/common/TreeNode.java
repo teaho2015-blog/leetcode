@@ -1,10 +1,7 @@
 package net.teaho.algorhythm.leetcode.common;
 
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Random;
+import java.util.*;
 
 public class TreeNode {
     public int val;
@@ -40,6 +37,33 @@ public class TreeNode {
 
         }
         return root;
+    }
+
+    public static void printTree(TreeNode root) {
+
+        List<List<Integer>> res = new LinkedList<>();
+        if (root == null) {
+            System.out.println("Tree is empty!");
+        }
+
+        Deque<TreeNode> nodeQueue = new LinkedList<>();
+        nodeQueue.addLast(root);
+        while (!nodeQueue.isEmpty()) {
+            List<Integer> list = new LinkedList<>();
+            int size = nodeQueue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode cur = nodeQueue.poll();
+                list.add(cur.val);
+                if (cur.left != null) {
+                    nodeQueue.offer(cur.left);
+                }
+                if (cur.right != null) {
+                    nodeQueue.offer(cur.right);
+                }
+            }
+            res.add(list);
+        }
+        System.out.println(res);
     }
 
 }
