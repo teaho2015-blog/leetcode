@@ -31,6 +31,15 @@ public class ListNode {
         }
     }
 
+    public static void printListInOneLine(ListNode head) {
+        System.out.println("print for object:" + head);
+        while (head != null) {
+            System.out.print(head.val);
+            head = head.next;
+        }
+        System.out.println("");
+    }
+
     public static ListNode concat(ListNode headA, ListNode headB) {
         ListNode head = headA;
         if (headA == null) {
