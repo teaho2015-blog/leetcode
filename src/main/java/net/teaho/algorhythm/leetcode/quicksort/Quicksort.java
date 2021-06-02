@@ -3,6 +3,12 @@ package net.teaho.algorhythm.leetcode.quicksort;
 import java.util.Arrays;
 
 /**
+ *
+ * 快速排序算法实现
+ *
+ * 时间复杂度：O(n log n) <br/>
+ * 空间复杂度: O(1)
+ *
  * @author teaho2015@gmail.com
  * @date 2021-06
  * @since 1.0.0
