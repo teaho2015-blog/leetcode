@@ -7,6 +7,8 @@ import java.util.List;
  * 54. 螺旋矩阵
  * https://leetcode-cn.com/problems/spiral-matrix/
  *
+ * 使用元素总数（numEle）做循环限制，一行行一层层做循环扫描
+ *
  * 时间复杂度O(mn)，其中 m 和 n 分别是输入矩阵的行数和列数。矩阵中的每个元素都要被访问一次。
  * 空间复杂度O(1)
  */
