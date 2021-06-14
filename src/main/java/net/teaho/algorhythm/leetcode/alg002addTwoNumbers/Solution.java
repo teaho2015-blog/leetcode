@@ -6,6 +6,8 @@ import net.teaho.algorhythm.leetcode.common.ListNode;
  * 2. 两数相加
  * https://leetcode-cn.com/problems/add-two-numbers/
  *
+ * 解题思路：
+ * 用变量记录进位，然后按位相加。
  *
  * 执行用时：2 ms, 在所有 Java 提交中击败了100.00%的用户
  * 内存消耗：38.2 MB, 在所有 Java 提交中击败了99.20%的用户
