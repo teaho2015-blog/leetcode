@@ -13,6 +13,9 @@ public class ListNode {
     }
 
     public static ListNode toListNode(int[] ints) {
+        if (ints == null || ints.length == 0) {
+            return null;
+        }
         ListNode head = new ListNode(ints[0]);
         ListNode node = head;
         for (int i = 1; i < ints.length; i++) {
