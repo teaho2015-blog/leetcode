@@ -8,6 +8,8 @@ package net.teaho.algorhythm.leetcode.interview.bigfilefindnum;
  * <p> 思路：二分查找，并切分文件，文件按照最大的位开始分类，最大位为0的数字放在一个文件，为1的放在另一个文件。
  * 对第一次切分的文件做切分：第二位为0的放一个文件，第二位1的放一个文件，依次执行，最终找到目标结果。
  *
+ * https://zhuanlan.zhihu.com/p/279320271
+ *
  * @author teaho2015@gmail.com
  * @date 2021-06
  */
