@@ -17,7 +17,8 @@ public class MyBlockingQueue {
     private int curSize = 0;
 
     /**
-     * 队列尾巴位置
+     * 队列尾巴位置，
+     * ps.我采用类似Ringbuffer的做法
      */
     private int slot = 0;
 
@@ -52,7 +53,11 @@ public class MyBlockingQueue {
             while (curSize == capicity) {
                 isFull.await();
             }
-            slot++;
+            if (slot != Integer.MAX_VALUE) {
+                slot++;
+            } else {
+                slot = (slot % capicity) + capicity;
+            }
             curSize++;
             vals[slot % capicity] = val;
             isNull.signal();
