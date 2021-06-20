@@ -5,8 +5,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * <p>百度面试题
+ * <p>百度、快手面试题
  * <p>自实现一个阻塞有界队列。
+ *
+ *
  */
 public class MyBlockingQueue {
 
