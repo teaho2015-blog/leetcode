@@ -1,6 +1,6 @@
 # leetcode
 
-
+[题目解法分类](category.md)
 
 
 

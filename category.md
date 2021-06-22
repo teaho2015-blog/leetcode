@@ -1,9 +1,25 @@
 # 题目解法分类
 
-
-
+通过解法分类，更容易把握某一类题的解法，也能加深对某个种类解法的理解（换句话说，对该类解法能解决什么问题，有什么利弊能有一个把握）。
 
 ## 二分法/分治法
 
 [23. 合并K个升序链表|解法3](src/main/java/net/teaho/algorhythm/leetcode/alg023mergeKLists/Solution3.java)
+
+
+## Hash
+
+[1. 两数之和](src/main/java/net/teaho/algorhythm/leetcode/alg001twoSum/Solution.java)
+
+
+## 栈
+
+[20. 有效的括号](src/main/java/net/teaho/algorhythm/leetcode/alg020validParentheses/Solution.java)
+[32. 最长有效括号](src/main/java/net/teaho/algorhythm/leetcode/alg032longestValidParentheses/Solution2.java)
+
+
+## 二叉树深度优先遍历
+
+[22. 括号生成|解法一](src/main/java/net/teaho/algorhythm/leetcode/alg022/Solution.java)
+
 
