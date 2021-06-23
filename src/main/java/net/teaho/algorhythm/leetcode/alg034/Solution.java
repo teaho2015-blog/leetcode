@@ -24,6 +24,13 @@ public class Solution {
         return new int[]{left, right};
     }
 
+    /**
+     *
+     * @param nums
+     * @param target
+     * @param bigger true返回最后面的target下标，false返回最前面的target下标
+     * @return
+     */
     public int binarySearch(int[] nums, int target, boolean bigger) {
 
         int left = 0, right = nums.length - 1, res = 0;
