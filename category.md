@@ -7,6 +7,11 @@
 [23. 合并K个升序链表|解法3](src/main/java/net/teaho/algorhythm/leetcode/alg023mergeKLists/Solution3.java)
 
 
+## 二分查找
+
+[34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/net/teaho/algorhythm/leetcode/alg034/Solution.java)
+
+
 ## Hash
 
 [1. 两数之和](src/main/java/net/teaho/algorhythm/leetcode/alg001twoSum/Solution.java)
@@ -21,5 +26,4 @@
 ## 二叉树深度优先遍历
 
 [22. 括号生成|解法一](src/main/java/net/teaho/algorhythm/leetcode/alg022/Solution.java)
-
 
