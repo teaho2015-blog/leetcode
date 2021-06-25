@@ -10,6 +10,7 @@
 ## 二分查找
 
 [34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/net/teaho/algorhythm/leetcode/alg034/Solution.java)
+[162. 寻找峰值](src/main/java/net/teaho/algorhythm/leetcode/alg162/Solution.java)
 
 
 ## Hash
@@ -29,6 +30,7 @@
 
 ## 回溯
 
+对于这类寻找所有可行解的题，我们都可以尝试用「搜索回溯」的方法来解决。  
 [39. 组合总和](src/main/java/net/teaho/algorhythm/leetcode/alg039combinationSum/Solution.java)
 
 
