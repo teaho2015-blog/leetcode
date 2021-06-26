@@ -9,9 +9,10 @@
 
 ## 二分查找
 
+查找有一定的内在规律的元素集中某个特定元素的题目，可以考虑二分查找加快速度。
+
 [34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/net/teaho/algorhythm/leetcode/alg034/Solution.java)
 [162. 寻找峰值](src/main/java/net/teaho/algorhythm/leetcode/alg162/Solution.java)
-
 
 ## Hash
 
@@ -31,7 +32,11 @@
 ## 回溯
 
 对于这类寻找所有可行解的题，我们都可以尝试用「搜索回溯」的方法来解决。  
+
+[回溯法|维基百科](https://zh.wikipedia.org/zh-hans/%E5%9B%9E%E6%BA%AF%E6%B3%95)
+
 [39. 组合总和](src/main/java/net/teaho/algorhythm/leetcode/alg039combinationSum/Solution.java)
+
 
 
 
