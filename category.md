@@ -43,3 +43,8 @@
 
 [53. 最大子序和](src/main/java/net/teaho/algorhythm/leetcode/alg053/Solution.java)
 
+## Floyd判圈算法
+
+[287. 寻找重复数](src/main/java/net/teaho/algorhythm/leetcode/alg287/Solution.java)
+
+
