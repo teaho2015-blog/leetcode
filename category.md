@@ -11,18 +11,18 @@
 
 查找有一定的内在规律的元素集中某个特定元素的题目，可以考虑二分查找加快速度。
 
-[34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/net/teaho/algorhythm/leetcode/alg034/Solution.java)
+[34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/net/teaho/algorhythm/leetcode/alg034/Solution.java)  
 [162. 寻找峰值](src/main/java/net/teaho/algorhythm/leetcode/alg162/Solution.java)
 
 ## Hash
 
-[1. 两数之和](src/main/java/net/teaho/algorhythm/leetcode/alg001twoSum/Solution.java)
+[1. 两数之和](src/main/java/net/teaho/algorhythm/leetcode/alg001twoSum/Solution.java)  
 [49. 字母异位词分组](src/main/java/net/teaho/algorhythm/leetcode/alg049/Solution.java)
 
 
 ## 栈
 
-[20. 有效的括号](src/main/java/net/teaho/algorhythm/leetcode/alg020validParentheses/Solution.java)
+[20. 有效的括号](src/main/java/net/teaho/algorhythm/leetcode/alg020validParentheses/Solution.java)  
 [32. 最长有效括号](src/main/java/net/teaho/algorhythm/leetcode/alg032longestValidParentheses/Solution2.java)
 
 
@@ -45,6 +45,7 @@
 
 ## Floyd判圈算法
 
+[141. 环形链表](src/main/java/net/teaho/algorhythm/leetcode/alg141/Solution.java)  
 [287. 寻找重复数](src/main/java/net/teaho/algorhythm/leetcode/alg287/Solution.java)
 
 
