@@ -50,4 +50,6 @@
 
 ## 贪心算法
 
+定义：[贪心算法|wikipedia](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
+
 [55. 跳跃游戏](src/main/java/net/teaho/algorhythm/leetcode/alg55jumpGame/Solution.java)
