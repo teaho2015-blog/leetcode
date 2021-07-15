@@ -53,3 +53,15 @@
 定义：[贪心算法|wikipedia](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
 
 [55. 跳跃游戏](src/main/java/net/teaho/algorhythm/leetcode/alg55jumpGame/Solution.java)
+
+
+
+## 合并区间类型题目
+
+该类题目并没涉及什么算法，重点是想清楚区间合并思路。
+[秒懂力扣区间题目：重叠区间、合并区间、插入区间|甜姨的奇妙冒险](https://mp.weixin.qq.com/s/ioUlNa4ZToCrun3qb4y4Ow)
+
+[56. 合并区间](src/main/java/net/teaho/algorhythm/leetcode/alg56mergeIntervals/Solution.java)
+
+
+
