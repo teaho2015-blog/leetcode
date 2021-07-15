@@ -48,4 +48,6 @@
 [141. 环形链表](src/main/java/net/teaho/algorhythm/leetcode/alg141/Solution.java)  
 [287. 寻找重复数](src/main/java/net/teaho/algorhythm/leetcode/alg287/Solution.java)
 
+## 贪心算法
 
+[55. 跳跃游戏](src/main/java/net/teaho/algorhythm/leetcode/alg55jumpGame/Solution.java)
