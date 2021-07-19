@@ -41,7 +41,8 @@
 
 ## 动态规划
 
-[53. 最大子序和](src/main/java/net/teaho/algorhythm/leetcode/alg053/Solution.java)
+[53. 最大子序和](src/main/java/net/teaho/algorhythm/leetcode/alg053/Solution.java)  
+[62. 不同路径|解法二](src/main/java/net/teaho/algorhythm/leetcode/alg062/Solution2.java)
 
 ## Floyd判圈算法
 
@@ -63,5 +64,8 @@
 
 [56. 合并区间](src/main/java/net/teaho/algorhythm/leetcode/alg56mergeIntervals/Solution.java)
 
+## 排列组合
+
+[62. 不同路径|解法一](src/main/java/net/teaho/algorhythm/leetcode/alg062/Solution1.java)
 
 
