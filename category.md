@@ -72,3 +72,8 @@
 [62. 不同路径|解法一](src/main/java/net/teaho/algorhythm/leetcode/alg062/Solution1.java)
 
 
+## 快排
+
+[75. 颜色分类](src/main/java/net/teaho/algorhythm/leetcode/alg075/Solution.java)
+
+
