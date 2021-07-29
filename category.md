@@ -30,13 +30,14 @@
 
 [22. 括号生成|解法一](src/main/java/net/teaho/algorhythm/leetcode/alg022/Solution.java)
 
-## 回溯
+## 回溯（深度优先搜索）
 
 对于这类寻找所有可行解的题，我们都可以尝试用「搜索回溯」的方法来解决。  
 
 [回溯法|维基百科](https://zh.wikipedia.org/zh-hans/%E5%9B%9E%E6%BA%AF%E6%B3%95)
 
-[39. 组合总和](src/main/java/net/teaho/algorhythm/leetcode/alg039combinationSum/Solution.java)
+[39. 组合总和](src/main/java/net/teaho/algorhythm/leetcode/alg039combinationSum/Solution.java)  
+[78. 子集](src/main/java/net/teaho/algorhythm/leetcode/alg078/Solution.java)
 
 
 ## 动态规划
