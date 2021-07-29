@@ -20,7 +20,7 @@ import java.util.List;
 public class Solution {
 
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> res = new LinkedList<>();
+        List<List<Integer>> res = new ArrayList<>();
         backTrace(nums, 0, new ArrayList<>(), res);
         return res;
     }
