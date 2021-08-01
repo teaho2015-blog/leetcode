@@ -38,6 +38,7 @@
 
 [39. 组合总和](src/main/java/net/teaho/algorhythm/leetcode/alg039combinationSum/Solution.java)  
 [78. 子集](src/main/java/net/teaho/algorhythm/leetcode/alg078/Solution.java)
+[79. 单词搜索](src/main/java/net/teaho/algorhythm/leetcode/alg079/Solution.java)
 
 
 ## 动态规划
