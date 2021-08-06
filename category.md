@@ -25,6 +25,11 @@
 [20. 有效的括号](src/main/java/net/teaho/algorhythm/leetcode/alg020validParentheses/Solution.java)  
 [32. 最长有效括号](src/main/java/net/teaho/algorhythm/leetcode/alg032longestValidParentheses/Solution2.java)
 
+### 单调栈
+
+[84. 柱状图中最大的矩形](src/main/java/net/teaho/algorhythm/leetcode/alg084/Solution.java)
+
+
 
 ## 二叉树深度优先遍历
 
