@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  * @author teaho2015@gmail.com
  * @date 2021-07
  */
-public class TestMain {
+public class Tester {
 
     @Test
     public void testTest() {
