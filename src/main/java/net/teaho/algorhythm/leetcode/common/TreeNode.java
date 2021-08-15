@@ -2,6 +2,7 @@ package net.teaho.algorhythm.leetcode.common;
 
 
 import java.util.*;
+import java.util.function.Supplier;
 
 public class TreeNode {
     public int val;
@@ -65,5 +66,50 @@ public class TreeNode {
         }
         System.out.println(res);
     }
+
+
+    public static TreeNode levelOrderGenerate(Integer[] arr) {
+
+
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        Queue<Supplier<Integer>> itemArr = new LinkedList<>();
+        for (Integer integer : arr) {
+            itemArr.offer(() -> integer);
+        }
+
+        TreeNode rootNode = new TreeNode(itemArr.poll().get());
+        queue.add(rootNode);
+
+        while (!queue.isEmpty() && !itemArr.isEmpty()) {
+
+            int size = queue.size();
+            for (int i = 0; i < size && !itemArr.isEmpty(); i++) {
+                TreeNode node = queue.poll();
+                Supplier<Integer> leftVal = itemArr.poll();
+                if (leftVal.get() != null) {
+                    node.left = new TreeNode(leftVal.get());
+                    queue.offer(node.left);
+                }
+
+                if (!itemArr.isEmpty()) {
+                    Supplier<Integer> rightVal = itemArr.poll();
+                    if (rightVal.get() != null) {
+
+                        node.right = new TreeNode(rightVal.get());
+                        queue.offer(node.right);
+                    }
+                }
+            }
+        }
+
+
+        return rootNode;
+    }
+
+
+//    public static void main(String[] args) {
+//        printTree(levelOrderGenerate(new Integer[]{5, 1, 4, null, null, 3, 6}));
+//    }
 
 }
