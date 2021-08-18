@@ -108,7 +108,18 @@ public class TreeNode {
     }
 
 
-//    public static void main(String[] args) {
+    public static boolean equalsTree(TreeNode root1, TreeNode root2) {
+
+        if ((root1 == null && root2 != null) || (root1 != null && root2 == null)) {
+            return false;
+        } else if (root1 == null) {
+            return true;
+        }
+
+        return root1.val == root2.val && equalsTree(root1.left, root2.left) && equalsTree(root1.right, root2.right);
+
+    }
+    //    public static void main(String[] args) {
 //        printTree(levelOrderGenerate(new Integer[]{5, 1, 4, null, null, 3, 6}));
 //    }
 
