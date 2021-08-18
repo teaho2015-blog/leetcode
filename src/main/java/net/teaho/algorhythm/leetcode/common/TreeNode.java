@@ -69,7 +69,9 @@ public class TreeNode {
 
 
     public static TreeNode levelOrderGenerate(Integer[] arr) {
-
+        if (arr == null || arr.length == 0) {
+            return null;
+        }
 
         Queue<TreeNode> queue = new LinkedList<>();
 

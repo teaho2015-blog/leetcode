@@ -16,14 +16,33 @@ public class Tester {
 
     @Test
     public void test() {
-        TreeNode root = levelOrderGenerate(new Integer[]{1, 2, 5, 3, 4, null, 6});
-        new Solution().flatten(root);
+        {
+            TreeNode root = levelOrderGenerate(new Integer[]{1, 2, 5, 3, 4, null, 6});
+            new Solution().flatten(root);
 
-        MatcherAssert.assertThat("!", equalsTree(root, levelOrderGenerate(new Integer[]{
-            1, null, 2, null, 3, null, 4, null, 5, null, 6
-        })),
-            Matchers.equalTo(true));
+            MatcherAssert.assertThat("!", equalsTree(root, levelOrderGenerate(new Integer[]{1, null, 2, null, 3, null, 4, null, 5, null, 6})),
+                Matchers.equalTo(true));
 
+
+        }
+
+        {
+            TreeNode root = levelOrderGenerate(new Integer[]{});
+            new Solution().flatten(root);
+
+            MatcherAssert.assertThat("!", equalsTree(root, levelOrderGenerate(new Integer[]{})),
+                Matchers.equalTo(true));
+
+        }
+
+        {
+            TreeNode root = levelOrderGenerate(new Integer[]{1,null,2,3});
+            new Solution().flatten(root);
+
+            MatcherAssert.assertThat("!", equalsTree(root, levelOrderGenerate(new Integer[]{1,null,2, null,3})),
+                Matchers.equalTo(true));
+
+        }
 
     }
 }

@@ -19,17 +19,23 @@ public class Solution {
 
     public void flatten(TreeNode root) {
 
+        if (root == null) {
+            return;
+        }
         TreeNode cur = root;
-        while (cur.left != null) {
-            TreeNode next = cur.left;
-            TreeNode pre = next;
-            while (pre.right != null) {
-                pre = pre.right;
+        while (cur != null) {
+            if (cur.left != null) {
+                TreeNode next = cur.left;
+                TreeNode pre = next;
+                while (pre.right != null) {
+                    pre = pre.right;
+                }
+                pre.right = cur.right;
+                cur.left = null;
+                cur.right = next;
             }
-            pre.right = cur.right;
-            cur.left = null;
-            cur.right = next;
             cur = cur.right;
+
 
         }
     }
