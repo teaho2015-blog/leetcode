@@ -93,6 +93,9 @@
 
 [94. 二叉树的中序遍历](src/main/java/net/teaho/algorhythm/leetcode/alg094/Solution.java)
 [98. 验证二叉搜索树](src/main/java/net/teaho/algorhythm/leetcode/alg098/Solution.java)
+[104. 二叉树的最大深度](src/main/java/net/teaho/algorhythm/leetcode/alg104/Solution.java)
+
+
 
 ## 卡特兰数公式
 
