@@ -14,10 +14,11 @@
 [34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/net/teaho/algorhythm/leetcode/alg034/Solution.java)  
 [162. 寻找峰值](src/main/java/net/teaho/algorhythm/leetcode/alg162/Solution.java)
 
-## Hash
+## Hash（哈希表）
 
 [1. 两数之和](src/main/java/net/teaho/algorhythm/leetcode/alg001twoSum/Solution.java)  
 [49. 字母异位词分组](src/main/java/net/teaho/algorhythm/leetcode/alg049/Solution.java)
+[128. 最长连续序列](src/main/java/net/teaho/algorhythm/leetcode/alg128/Solution.java)
 
 
 ## 栈
