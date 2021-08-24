@@ -54,6 +54,7 @@
 [64. 最小路径和](src/main/java/net/teaho/algorhythm/leetcode/alg064minimumPathSum/Solution.java)  
 [72. 编辑距离](src/main/java/net/teaho/algorhythm/leetcode/alg072/Solution.java)  
 [96. 不同的二叉搜索树](src/main/java/net/teaho/algorhythm/leetcode/alg096/Solution.java)  
+[139. 单词拆分](src/main/java/net/teaho/algorhythm/leetcode/alg139/Solution.java)  
 
 ## Floyd判圈算法
 
