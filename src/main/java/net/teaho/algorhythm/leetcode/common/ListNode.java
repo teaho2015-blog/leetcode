@@ -1,5 +1,7 @@
 package net.teaho.algorhythm.leetcode.common;
 
+import org.jcp.xml.dsig.internal.dom.ApacheOctetStreamData;
+
 /**
  * 链表节点
  */
@@ -23,6 +25,34 @@ public class ListNode {
             node.next = tmp;
             node = tmp;
         }
+        return head;
+    }
+
+    public static ListNode toCircleListNode(int[] ints, int pos) {
+        if (ints == null || ints.length == 0) {
+            return null;
+        }
+        ListNode head = new ListNode(ints[0]);
+        ListNode node = head;
+        for (int i = 1; i < ints.length; i++) {
+            ListNode tmp = new ListNode(ints[i]);
+            node.next = tmp;
+            node = tmp;
+        }
+
+        //环形链表
+        if (pos > -1) {
+            ListNode tail = head;
+            ListNode posNode = head;
+            while (tail.next != null) {
+                tail = tail.next;
+            }
+            for (int i = 0; i < pos; i++) {
+                posNode = posNode.next;
+            }
+            tail.next = posNode;
+        }
+
         return head;
     }
 
