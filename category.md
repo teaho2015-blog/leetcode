@@ -107,6 +107,7 @@
 
 [208. 实现 Trie (前缀树)](src/main/java/net/teaho/algorhythm/leetcode/alg208/Trie.java)
 
+[数据结构与算法：字典树（前缀树）](https://zhuanlan.zhihu.com/p/28891541)
 
 ## 卡特兰数公式
 
