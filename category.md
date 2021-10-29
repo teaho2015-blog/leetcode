@@ -54,8 +54,10 @@
 [64. 最小路径和](src/main/java/net/teaho/algorhythm/leetcode/alg064minimumPathSum/Solution.java)  
 [72. 编辑距离](src/main/java/net/teaho/algorhythm/leetcode/alg072/Solution.java)  
 [96. 不同的二叉搜索树](src/main/java/net/teaho/algorhythm/leetcode/alg096/Solution.java)  
-[139. 单词拆分](src/main/java/net/teaho/algorhythm/leetcode/alg139/Solution.java)
-[198. 打家劫舍](src/main/java/net/teaho/algorhythm/leetcode/alg198houseRobber/Solution.java)
+[139. 单词拆分](src/main/java/net/teaho/algorhythm/leetcode/alg139/Solution.java)  
+[198. 打家劫舍](src/main/java/net/teaho/algorhythm/leetcode/alg198houseRobber/Solution.java)  
+[221. 最大正方形](src/main/java/net/teaho/algorhythm/leetcode/alg221maximalSquare/Solution.java)  
+
 
 ## Floyd判圈算法
 
@@ -102,6 +104,12 @@
 递归遍历：  
 [226. 翻转二叉树](src/main/java/net/teaho/algorhythm/leetcode/alg226/Solution.java)
 
+
+### Trie树
+
+[208. 实现 Trie (前缀树)](src/main/java/net/teaho/algorhythm/leetcode/alg208/Trie.java)
+
+[数据结构与算法：字典树（前缀树）](https://zhuanlan.zhihu.com/p/28891541)
 
 ## 卡特兰数公式
 

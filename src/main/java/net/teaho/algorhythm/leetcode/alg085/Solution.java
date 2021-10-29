@@ -6,8 +6,8 @@ package net.teaho.algorhythm.leetcode.alg085;
  *
  * <p>思路：暴力解法（ps.该题还有一种思路是单调栈）
  *  https://leetcode-cn.com/problems/maximal-rectangle/solution/zui-da-ju-xing-by-leetcode-solution-bjlu/
- *  我们首先计算出矩阵的每个元素的左边连续 11 的数量，使用二维数组 \textit{left}left 记录，其中 \textit{left}[i][j]left[i][j] 为矩阵第 ii 行第 jj 列元素的左边连续 11 的数量。
- *  随后，对于矩阵中任意一个点，我们枚举以该点为右下角的全 11 矩形。
+ *  我们首先计算出矩阵的每个元素的左边连续 1 的数量，使用二维数组 left 记录，其中 left[i][j] 为矩阵第 i 行第 j 列元素的左边连续 1 的数量。
+ *  随后，对于矩阵中任意一个点，我们枚举以该点为右下角的全 1 矩形。
  *
  * <p>时间复杂度：O(m^2 * n)
  * <p>空间复杂度：O(mn)
