@@ -64,6 +64,7 @@
 [139. 单词拆分](src/main/java/net/teaho/algorhythm/leetcode/alg139/Solution.java)  
 [198. 打家劫舍](src/main/java/net/teaho/algorhythm/leetcode/alg198houseRobber/Solution.java)  
 [221. 最大正方形](src/main/java/net/teaho/algorhythm/leetcode/alg221maximalSquare/Solution.java)  
+[279. 完全平方数](src/main/java/net/teaho/algorhythm/leetcode/alg279/Solution.java)  
 
 
 ## Floyd判圈算法
