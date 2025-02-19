@@ -14,10 +14,22 @@ public class Tester {
     @Test
     public void test() {
 
-        TreeNode root = TreeNode.randomTree();
-        MatcherAssert.assertThat(true, Matchers.equalTo(
-            TreeNode.equalsTree(root, new Solution1().deserialize(new Solution1().serialize(root)))));
-
+        {
+            TreeNode root = TreeNode.randomTree();
+            MatcherAssert.assertThat(true, Matchers.equalTo(
+                TreeNode.equalsTree(root, new Solution1().deserialize(new Solution1().serialize(root)))));
+        }
+        {
+            TreeNode root = new TreeNode(1);
+            System.out.println(new Solution1().serialize(root));
+            MatcherAssert.assertThat(true, Matchers.equalTo(
+                TreeNode.equalsTree(root, new Solution1().deserialize(new Solution1().serialize(root)))));
+        }
+        {
+            TreeNode root = null;
+            MatcherAssert.assertThat(true, Matchers.equalTo(
+                TreeNode.equalsTree(root, new Solution1().deserialize(new Solution1().serialize(root)))));
+        }
     }
 
 }
