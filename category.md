@@ -39,6 +39,15 @@
 [239. 滑动窗口最大值](src/main/java/net/teaho/algorhythm/leetcode/alg239/Solution.java)
 
 
+### 优先队列
+
+
+小根堆：
+[253. 会议室 II](src/main/java/net/teaho/algorhythm/leetcode/alg253/Solution.java)
+
+
+
+
 ## 二叉树深度优先遍历
 
 [22. 括号生成|解法一](src/main/java/net/teaho/algorhythm/leetcode/alg022/Solution.java)  
