@@ -157,6 +157,9 @@
 
 [647. 回文子串](cpp/alg647/main.cpp)  
 
+## 位计数功能
+
+[461. 汉明距离](src/main/java/net/teaho/algorhythm/leetcode/alg461/Solution.java)
 
 ## 参考别人题单
 
