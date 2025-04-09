@@ -25,6 +25,11 @@
 [75. 颜色分类](src/main/java/net/teaho/algorhythm/leetcode/alg075/Solution.java)
 
 
+### 其他
+
+[448. 找到所有数组中消失的数字](src/main/java/net/teaho/algorhythm/leetcode/alg448/Solution.java)
+
+
 ## Hash（哈希表）
 
 [1. 两数之和](src/main/java/net/teaho/algorhythm/leetcode/alg001twoSum/Solution.java)  
