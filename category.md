@@ -29,6 +29,10 @@
 
 [448. 找到所有数组中消失的数字](src/main/java/net/teaho/algorhythm/leetcode/alg448/Solution.java)
 
+逆向双指针：
+
+[88. 合并两个有序数组](src/main/java/net/teaho/algorhythm/leetcode/alg088/Solution.java)
+
 
 ## Hash（哈希表）
 
@@ -142,7 +146,7 @@
 
 [62. 不同路径|解法一](src/main/java/net/teaho/algorhythm/leetcode/alg062/Solution1.java)
 
-## 滑动窗口
+## 滑动窗口与双指针
 
 [76. 最小覆盖子串](src/main/java/net/teaho/algorhythm/leetcode/alg076/Solution.java)  
 
