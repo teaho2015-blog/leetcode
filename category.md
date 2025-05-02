@@ -99,6 +99,7 @@
 [78. 子集](src/main/java/net/teaho/algorhythm/leetcode/alg078/Solution.java)  
 [79. 单词搜索](src/main/java/net/teaho/algorhythm/leetcode/alg079/Solution.java)  
 [494. 目标和](src/main/java/net/teaho/algorhythm/leetcode/alg494/Solution.java)  
+[543. 二叉树的直径](src/main/java/net/teaho/algorhythm/leetcode/alg543/Solution.java)  
 
 
 ### 广度优先搜索
